@@ -1,0 +1,50 @@
+! https://cafe.naver.com/candan3/45 원본주소 
+
+! https://blog.naver.com/devilduo/221812025077     
+! https://github.com/List-KR/List-KR
+! https://github.com/List-KR/List-KR/raw/master/filter-uBO.txt
+! 유튜브 광고 필터 추가.
+
+! https://github.com/List-KR/List-KR/issues/500
+
+! 지식인 답변 하고 룰렛 팝업 뜨는 문제 해결 
+! 지식인 차단 20220910 https://github.com/List-KR/List-KR/issues/500#issuecomment-1242370356
+kin.naver.com#$#div#ticketCreationLayer[data-store-id="ticketCreationLayer"] { display: none !important } 
+kin.naver.com#$#body { overflow: auto !important; }
+
+! 지식인 질문자 채택률 미니팝업 https://github.com/List-KR/List-KR/issues/501
+kin.naver.com##+js(ra, style, .callout--profile-tooltip._profileTooltip, stay)
+kin.naver.com##.callout--profile-tooltip._profileTooltip
+
+! 네이버 곧 지식iN 룰렛 이벤트가 종료됩니다. 매우 짜증 나는 무한대 팝업 차단 https://github.com/List-KR/List-KR/issues/513
+ kin.naver.com#$#div#rouletteEndAlertLayer { display: none !important }
+
+! 전문가가 수정해줌 일중 아무거나 써도 될것 같아요 ㅎㅎb 
+! 네이버 곧 지식iN 룰렛 이벤트가 종료됩니다. 매우 짜증 나는 무한대 팝업 차단
+kin.naver.com#$##rouletteEndAlertLayer { display: none !important; }
+
+! 네이버 지식인 팝업 10주간 달성하면 최대 4만원의 선물!
+kin.naver.com#$##eventPopupLayer2022SeasonThree { display: none !important; }
+
+! 네이버 지식인 20주년 
+kin.naver.com#$##eventPopupLayer20Anniversary { display: none !important; }
+kin.naver.com#$#body { overflow: auto !important; }
+
+! 네이버 블러그 공지 팝업
+blog.naver.com#$##personalNoticeLayer { display: none !important; }
+blog.naver.com#$#body { overflow: auto !important; }
+
+
+! 블러그 우측 사이드바 글쓰는 요령 안내 알림
+blog.naver.com#$##se-help-panel se-is-on { display: none !important; }
+blog.naver.com#$#body { overflow: auto !important; }
+
+
+! 네이버는 웹 카피 하면 뛰어 쓰기 되고 중간에 o 표시가 이상하게 생기네요 ㅠ. 아무튼.. 메모장에 해서 붙처 넣고 해보세요. 혹시 몰라 파일도 올리네요.
+
+! 기타 차단이요 메인 페이지 웨일 깔라고 협박 하는거랑 메일 ㅎㅎ 소소한 이건 제가 한거라 좀 엉터리에요.
+! 2022-05-21 https://kin.naver.com
+kin.naver.com##.tc-selected.tc-panel > ._noanswer_wrap.content_wrap > ._dir_content.content_area > ._dir_content_title.heading_area > ._option.sort_list_group > .sort_list_group_left > .view_type_wrap > ._view_type_list.view_type_list > ._onlyTitle > ._previewTypeTooltipLayer.tooltip
+
+! 2022-05-21 https://mail.naver.com
+mail.naver.com##.ly_tooltip_smart_mail.arr_center_bottom.ly_tooltip_green
