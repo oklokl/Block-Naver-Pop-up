@@ -39,6 +39,9 @@ blog.naver.com#$#body { overflow: auto !important; }
 blog.naver.com#$##se-help-panel se-is-on { display: none !important; }
 blog.naver.com#$#body { overflow: auto !important; }
 
+! 2023-04-11 https://blog.naver.com
+blog.naver.com##.se-is-on.se-help-panel
+
 
 ! 네이버는 웹 카피 하면 뛰어 쓰기 되고 중간에 o 표시가 이상하게 생기네요 ㅠ. 아무튼.. 메모장에 해서 붙처 넣고 해보세요. 혹시 몰라 파일도 올리네요.
 
