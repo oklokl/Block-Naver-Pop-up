@@ -51,3 +51,13 @@ kin.naver.com##.tc-selected.tc-panel > ._noanswer_wrap.content_wrap > ._dir_cont
 
 ! 2022-05-21 https://mail.naver.com
 mail.naver.com##.ly_tooltip_smart_mail.arr_center_bottom.ly_tooltip_green
+
+! 2023-04-11 https://kin.naver.com
+kin.naver.com##._layer.layer_promotion_bloom.popup
+kin.naver.com##._close.dimmed
+kin.naver.com###eventPopupLayerAprilFlower
+kin.naver.com##.layer_expert._dimmedFeedbackItem.layer_style1.layer_wrap > .layer_inner
+kin.naver.com###detailFeedbackDimmedLayer
+kin.naver.com##.popup--point.popup
+kin.naver.com##._selectAnswerGuidePointGiftLayer.section_layer
+
